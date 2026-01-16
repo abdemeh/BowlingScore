@@ -32,5 +32,6 @@ public class Main {
 
         int resultat = monMatch.score();
         System.out.println("Le score total est : " + resultat);
+        ScoreSaver.save(resultat);
     }
 }
